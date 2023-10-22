@@ -1,0 +1,88 @@
+# ANÁLISIS DEL JUEGO STAR BATTLE 
+
+ADRIÁN ORTEGA
+
+Práctica en grupo (50% nota de ejercicios)
+
+
+Tabla de Contenidos
+
+1. Introducción
+2. Especificación de Requisitos del Sistema (SRS)
+   2.1 Requisitos Funcionales
+   2.2 Requisitos No Funcionales
+   2.3 Requisitos del Sistema
+3. Diagrama de Casos de Uso
+4. Diagrama de Actividad - Registro de Usuarios
+5. Diagrama de Actividad - Desarrollo del Juego
+
+1. Introducción
+
+El proyecto "Star Battle" es un emocionante juego de estrategia que se desarrollará en una versión web y móvil.
+Este juego permitirá a los jugadores enfrentarse en batallas espaciales épicas, eligiendo entre la Flota Estelar y el Imperio Klingon. 
+Los jugadores podrán jugar contra una IA o competir contra otros jugadores a través de Internet. 
+El juego implica la gestión de flotas de naves espaciales, disparos estratégicos y la toma de decisiones en un entorno de dificultad variable.
+
+2. Especificación de Requisitos del Sistema (SRS)
+
+2.1 Requisitos Funcionales
+
+Los requisitos funcionales describen las funciones específicas que debe cumplir el sistema:
+
+2.1.1 Registro de Usuarios
+    - Los usuarios podrán registrarse en la aplicación.
+    - Los usuarios registrados podrán elegir ser parte de la Flota Estelar o el Imperio Klingon.
+    - Los usuarios invitados solo podrán elegir unirse al Imperio Klingon.
+
+2.1.2 Configuración del Juego
+    - Los jugadores elegirán el nivel de dificultad (1, 2 o 3).
+    - Cada jugador configurará la disposición de su flota de 6 naves espaciales en una cuadrícula.
+
+2.1.3 Desarrollo del Juego
+    - Los jugadores dispararán alternativamente a coordenadas, seleccionando nave y arma.
+    - Cada arma tiene la opción de doble potencia, con el doble de daño.
+    - Las naves tendrán escudos que absorben ciertos impactos antes de ser destruidas.
+    - Una nave no dañada durante 10 turnos se reparará por completo.
+    - El juego continuará hasta que una flota sea destruida o la Flota Estelar se rinda.
+
+2.1.4 Ranking y Puntuación
+    - Se mantendrá un ranking de los mejores jugadores.
+    - El ganador recibirá puntos que podrá canjear por munición en otros juegos.
+
+2.2 Requisitos No Funcionales
+
+Los requisitos no funcionales describen características del sistema que no están relacionadas con funciones específicas:
+
+2.2.1 Versatilidad
+    - El juego estará disponible en versiones web y móvil.
+    - Debe ser accesible para dispositivos individuales y multijugador a través de Internet.
+
+2.2.2 Ancho de Banda
+    - Se requerirá un alojamiento web con un gran ancho de banda para asegurar un juego sin problemas a través de Internet.
+
+2.2.3 Seguridad de Datos
+    - Se utilizará una base de datos Oracle para almacenar usuarios y juegos, cumpliendo con las normativas de protección de datos.
+
+2.3 Requisitos del Sistema
+
+Los requisitos del sistema describen los componentes necesarios para la implementación:
+
+2.3.1 Plataformas de Desarrollo
+    - Se utilizarán tecnologías web y móviles para desarrollar el juego.
+    - Se empleará una base de datos Oracle.
+
+
+3. Diagrama de Casos de Uso
+
+git add <"C:\Users\adria\Pictures\Screenshots\Captura de pantalla 2023-10-22 203007.png">
+
+
+4. Diagrama de Actividad - Registro de Usuarios
+
+git add <"C:\Users\adria\Pictures\Screenshots\Captura de pantalla 2023-10-22 200733.png">
+
+5.Diagrama de Actividad - Desarrollo del Juego
+
+git add <"C:\Users\adria\Pictures\Screenshots\Captura de pantalla 2023-10-22 195713.png">
+
+
